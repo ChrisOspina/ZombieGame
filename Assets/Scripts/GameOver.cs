@@ -9,7 +9,7 @@ public class GameOver : MonoBehaviour
         if (Input.anyKeyDown || Input.GetButtonDown("Jump"))
         {
             GameData.lives = 3;
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Level1");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
         }
     }
 }
